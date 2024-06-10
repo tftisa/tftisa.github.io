@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>Linux学习笔记.md</title>
+    <link href="/2024/06/10/Linux%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/"/>
+    <url>/2024/06/10/Linux%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Linux-学习笔记"><a href="#Linux-学习笔记" class="headerlink" title="Linux 学习笔记"></a>Linux 学习笔记</h1><p>[TOC]</p><h2 id="一、包管理工具"><a href="#一、包管理工具" class="headerlink" title="一、包管理工具"></a>一、包管理工具</h2><h3 id="1-1-参考资料"><a href="#1-1-参考资料" class="headerlink" title="1.1 参考资料"></a>1.1 参考资料</h3><ul><li><a href="https://ubuntu.com/server/docs/package-management">Ubuntu Server Package management</a></li></ul><h3 id="1-2-apt-Advanced-Packaging-Tool"><a href="#1-2-apt-Advanced-Packaging-Tool" class="headerlink" title="1.2 apt (Advanced Packaging Tool)"></a>1.2 apt (Advanced Packaging Tool)</h3><p><a href="https://www.reddit.com/r/linux4noobs/comments/zftf5d/sudo_apt_update_sudo_apt_grade_explanation_im/">apt update &amp; apt upgrade</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Linux必装软件.md</title>
     <link href="/2024/01/01/Linux%E5%BF%85%E8%A3%85%E8%BD%AF%E4%BB%B6/"/>
     <url>/2024/01/01/Linux%E5%BF%85%E8%A3%85%E8%BD%AF%E4%BB%B6/</url>
