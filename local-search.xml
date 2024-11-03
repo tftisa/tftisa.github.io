@@ -4,6 +4,57 @@
   
   
   <entry>
+    <title>Vim Tutor</title>
+    <link href="/2024/11/03/Vim-Tutor/"/>
+    <url>/2024/11/03/Vim-Tutor/</url>
+    
+    <content type="html"><![CDATA[<h1 id="VIM-Tutor"><a href="#VIM-Tutor" class="headerlink" title="VIM Tutor"></a>VIM Tutor</h1><h2 id="Press-x-to-delete-the-character-under-the-cursor"><a href="#Press-x-to-delete-the-character-under-the-cursor" class="headerlink" title="Press  x  to delete the character under the cursor."></a>Press  <code>x</code>  to delete the character under the cursor.</h2><p>Press  <code>x</code>  to delete the character under the cursor.</p><blockquote><p>To fix the errors, move the cursor until it is on top of the character to be deleted.</p><p>Then, Press the <code>x</code>  key to delete the unwanted character</p></blockquote><h2 id="Press-A-to-append-text"><a href="#Press-A-to-append-text" class="headerlink" title="Press  A  to append text."></a>Press  <code>A</code>  to append text.</h2><p>Move the cursor to the line in which you append text. Press  <code>A</code>  and type in the necessary additions.</p><blockquote><p>It does not matter on what character the cursor is in that line.</p></blockquote><h2 id="Type-dw-to-delete-a-word"><a href="#Type-dw-to-delete-a-word" class="headerlink" title="Type  dw  to delete a word."></a>Type  <code>dw</code>  to delete a word.</h2><p>Move the cursor to the beginning of a word that needs to be deleted. Then, Type <code>dw</code> to make the word disappear.</p><blockquote><p>The letter  d  will appear on the last line of the screen as you type it.  Vim is waiting for you to type  w .  If you see another character than  d  you typed something wrong; press  <ESC>  and start over.</p></blockquote><h2 id="Type-d-to-delete-to-the-end-of-the-line"><a href="#Type-d-to-delete-to-the-end-of-the-line" class="headerlink" title="Type  d$ to delete to the end of the line."></a>Type  <code>d$</code> to delete to the end of the line.</h2><h2 id="ON-OPERATORS-AND-MOTIONS"><a href="#ON-OPERATORS-AND-MOTIONS" class="headerlink" title="ON OPERATORS AND MOTIONS"></a>ON OPERATORS AND MOTIONS</h2><p>Many commands that change text are made from an operator and a motion.The format for a delete command with the  d  delete operator is as follows:</p><pre><code class="hljs">    d   motion</code></pre><p>  Where:</p><ul><li><p>d: is the delete operator.</p></li><li><p>motion: is what the operator will operate on (listed below).</p><p>A short list of motions:</p></li><li><p>w - until the start of the next word, EXCLUDING its first character.</p></li><li><p>e - to the end of the current word, INCLUDING the last character.</p></li><li><p>$ - to the end of the line, INCLUDING the last character.</p></li></ul><p>Thus typing  de  will delete from the cursor to the end of the word.</p><blockquote><p>Pressing just the motion while in Normal mode without an operator will move the cursor as specified.</p></blockquote><h2 id="USING-A-COUNT-FOR-A-MOTION"><a href="#USING-A-COUNT-FOR-A-MOTION" class="headerlink" title="USING A COUNT FOR A MOTION"></a>USING A COUNT FOR A MOTION</h2><p>Typing a number before a motion repeats it that many times.</p><ul><li><p>Type  2w  to move the cursor two words forward.</p></li><li><p>Type  3e  to move the cursor to the end of the third word forward.</p></li><li><p>Type  0  (zero) to move to the start of the line.</p></li></ul><h2 id="USING-A-COUNT-TO-DELETE-MORE"><a href="#USING-A-COUNT-TO-DELETE-MORE" class="headerlink" title="USING A COUNT TO DELETE MORE"></a>USING A COUNT TO DELETE MORE</h2><p>Typing a number with an operator repeats it that many times.</p><p>In the combination of the delete operator and a motion mentioned above you insert a count before the motion to delete more:</p><figure class="highlight applescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs applescript">d   <span class="hljs-built_in">number</span>   motion<br></code></pre></td></tr></table></figure><p>Type  d2w  to delete the two UPPER CASE words.</p><p>Type   2dd   to delete two lines.</p><h2 id="Type-p-to-put-previously-deleted-text-after-the-cursor"><a href="#Type-p-to-put-previously-deleted-text-after-the-cursor" class="headerlink" title="Type p  to put previously deleted text after the cursor"></a>Type <code>p</code>  to put previously deleted text after the cursor</h2><p>Type  dd  to delete the line and store it in a Vim register.Then, move the cursor to the line, ABOVE where the deleted line should go.Type <code>p</code>to put the line below the cursor.</p><h2 id="Type-rx-to-replace-the-character-at-the-cursor-with-x"><a href="#Type-rx-to-replace-the-character-at-the-cursor-with-x" class="headerlink" title="Type  rx  to replace the character at the cursor with  x"></a>Type  <code>rx</code>  to replace the character at the cursor with  x</h2><p>Move the cursor so that it is on top of the first error. Type<code>r</code>and then the character which should be there.</p>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>Vim</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Clean C Drive</title>
+    <link href="/2024/08/11/Clean-C-Drive/"/>
+    <url>/2024/08/11/Clean-C-Drive/</url>
+    
+    <content type="html"><![CDATA[<p>Clean C Drive In Windows 10</p><ul><li><p>windows + R</p><ul><li><code>prefetch</code>：delete all files in this folder</li><li><code>temp</code>: delete all files in this folder</li><li><code>%temp%</code>: delete all files in this folder</li></ul></li><li><p>go down to search box, then type <code>Defragment and Optimize Drives</code>，then click <code>Optimize</code> button, and close the window.</p></li></ul>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Maven</title>
+    <link href="/2024/07/28/Maven/"/>
+    <url>/2024/07/28/Maven/</url>
+    
+    <content type="html"><![CDATA[<h2 id="一、maven镜像"><a href="#一、maven镜像" class="headerlink" title="一、maven镜像"></a>一、maven镜像</h2><h3 id="1-1-镜像仓库配置"><a href="#1-1-镜像仓库配置" class="headerlink" title="1.1 镜像仓库配置"></a>1.1 镜像仓库配置</h3><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">mirror</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">id</span>&gt;</span>nexus-aliyun<span class="hljs-tag">&lt;/<span class="hljs-name">id</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">mirrorOf</span>&gt;</span>central<span class="hljs-tag">&lt;/<span class="hljs-name">mirrorOf</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">name</span>&gt;</span>Nexus aliyun<span class="hljs-tag">&lt;/<span class="hljs-name">name</span>&gt;</span><br>  <span class="hljs-tag">&lt;<span class="hljs-name">url</span>&gt;</span>http://maven.aliyun.com/nexus/content/groups/public<span class="hljs-tag">&lt;/<span class="hljs-name">url</span>&gt;</span><br><span class="hljs-tag">&lt;/<span class="hljs-name">mirror</span>&gt;</span><br></code></pre></td></tr></table></figure><h3 id="1-2-本地仓库配置"><a href="#1-2-本地仓库配置" class="headerlink" title="1.2 本地仓库配置"></a>1.2 本地仓库配置</h3><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs java">&lt;localRepository&gt;D:\Java\Maven Repo&lt;/localRepository&gt;<br></code></pre></td></tr></table></figure><h2 id="二、相关命令"><a href="#二、相关命令" class="headerlink" title="二、相关命令"></a>二、相关命令</h2><ul><li><strong>validate</strong>: validate the project is correct and all necessary information is available</li><li><strong>compile</strong>: compile the source code of the project</li><li><strong>test</strong>: test the compiled source code using a suitable unit testing framework. These tests should not require the code be packaged or deployed</li><li><strong>package</strong>: take the compiled code and package it in its distributable format, such as a JAR.</li><li><strong>integration-test</strong>: process and deploy the package if necessary into an environment where integration tests can be run</li><li><strong>verify</strong>: run any checks to verify the package is valid and meets quality criteria</li><li><strong>install</strong>: install the package into the local repository, for use as a dependency in other projects locally</li><li><strong>deploy</strong>: done in an integration or release environment, copies the final package to the remote repository for sharing with other developers and projects.</li></ul><p>There are two other Maven lifecycles of note beyond the <em>default</em> list above. They are</p><ul><li><p><strong>clean</strong>: cleans up artifacts created by prior builds</p></li><li><p><strong>site</strong>: generates site documentation for this project</p></li></ul>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>maven</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>nginx</title>
     <link href="/2024/07/10/nginx/"/>
     <url>/2024/07/10/nginx/</url>
